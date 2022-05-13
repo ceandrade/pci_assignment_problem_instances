@@ -66,19 +66,21 @@ instance ID has the three allowed PCI groups. In this case, the underline graph
 is the same for all versions, as so as the original PCIs.  Only the allowed
 PCIs changes from instance to instance.
 
-Files with extension `.dat` can be read directly for most commercial MIP
-solvers such as IBM ILOG CPLEX. 
+[:file_folder: DAT files:](https://github.com/ceandrade/pci_assignment_problem_instances/blob/master/dat)
+files with extension `.dat` can be read directly for most
+commercial MIP solvers such as IBM ILOG CPLEX. 
 
-Files ending in `.json` are in the widely used
+[:file_folder: JSON files:](https://github.com/ceandrade/pci_assignment_problem_instances/blob/master/json)
+files ending in `.json` are in the widely used
 [JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON), which can be
 easily read by most programming languages such as Python or C++ (using
 https://github.com/nlohmann/json).
 This is the preferred format since it requires minimal coding and is less
-error-prone. **You should use it.**
+error-prone. **You should use this format.** :wink:
 
-Finally, files ending on `.txt`
-are plain text files for easy parsing Each set of instances is enclosed in
-folders according to their format.
+[:file_folder: TXT files:](https://github.com/ceandrade/pci_assignment_problem_instances/blob/master/txt)
+files ending on `.txt` are plain text files for easy parsing Each set of
+instances is enclosed in folders according to their format.
 
 We have included a feasible solution (found by
 [IBM ILOG CP Solver 12.10](https://www.ibm.com/products/ilog-cplex-optimization-studio))
@@ -136,8 +138,8 @@ All instances have the following fields:
 - `num_inter_technology_neighbors` and `inter_technology_neighbors`: not used
   in this version.
 
-We also include the folder 
-[`results`](https://github.com/ceandrade/pci_assignment_problem_instances/blob/master/results), 
-which contains all the best results
-obtained by the algorithms described [in the paper.](http://dx.doi.org) 
+
+| :warning: Warning          |
+|:---------------------------|
+| We also include the folder [`results`](https://github.com/ceandrade/pci_assignment_problem_instances/blob/master/results), which contains all the best results obtained by the algorithms described [in the paper.](http://dx.doi.org) 
 
