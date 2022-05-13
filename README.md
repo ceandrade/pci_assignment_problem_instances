@@ -39,26 +39,6 @@ article explicitly":
 
 We have a total of 291 instances which are divided into three large groups:
 
-- All/full PCIs: let `max_pci` be the mininum between the number of nodes and
-  1006 (which is the maximum number of PCIs for 5G). The allowed PCIs are in
-  the range `[1, max_pci + 1]`. This instance group is identified by
-  prefix `full`. It should be easier to find feasible solutions for these
-  instances, but hard to prove the optima, since the search space is very
-  large (and symmetrical);
-
-- Original PCIs: the allowed PCIs are in the range between the minimum and
-  (maximum + 1) of the original PCIs excluding zero. This instance group is
-  identified by prefix `orig`. This is the way it occurs most time in the
-  practice;
-
-- Maximum clique PCIs: let `min_pci` be the minimun of the original PCIs
-  excluding zero and let `max_cliq` be the size of the
-  [maximum clique](https://en.wikipedia.org/wiki/Clique_(graph_theory))
-  in the graph. The allowed PCIs are in `[min_pci, min_pci + max_cliq]`.
-  This instance group is identified by prefix `cliq`. For such instances,
-  feasible solutions should be hard to find.
-
-
 - Instances considering full PCI range `[0, 1007]`. This instance group is
   identified by suffix `full`. It should be easier to find feasible solutions
   for these instances, but hard to prove the optima, since the search space is

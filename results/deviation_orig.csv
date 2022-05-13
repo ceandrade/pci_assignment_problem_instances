@@ -1,4 +1,4 @@
-Instance,TotalRegularModkCollisions,TotalShuffles,TotalPciChanges,MA_WS,MA_NWS,NSGA,MIP
+Instance,TotalRegularModkCollisions,TotalShuffles,TotalPciChanges,MA_WS,MA_NWS,NSGA_II,MIP
 pci_001_n0030_orig,9,0,16,0.00,0.00,0.00,11.11
 pci_002_n0030_orig,29,0,15,0.00,0.00,0.00,100.00
 pci_003_n0030_orig,28,0,16,0.00,0.00,0.00,100.00
