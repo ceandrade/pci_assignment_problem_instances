@@ -84,7 +84,7 @@ All instances have the following fields:
 
 - `instance_name`: a string with the instance name;
 
-- `instance_group`: either "full", "orig", or "cliq";
+- `instance_group`: either "full", "orig", or "squz";
 
 - `min_allowed_pci` and `max_allowed_pci`: the mininum and maxinum of the range
    of the allowed PCIs;
