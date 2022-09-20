@@ -24,8 +24,9 @@ met:
    used to test it must cite the following article explicitly:
 
 > C.E. Andrade, L.S. Pessoa, S. Stawiarski. The Physical Cell Identity
-> Assignment Proble: a Practical Optimization Approach. IEEE Transactions
-> on Evolutionary Computation. 2022, to appear.
+> Assignment Problem: a Practical Optimization Approach. IEEE Transactions
+> on Evolutionary Computation, 2022.
+> DOI [10.1109/TEVC.2022.3185927](https://doi.org/10.1109/TEVC.2022.3185927).
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
 ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED

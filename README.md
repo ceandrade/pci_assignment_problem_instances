@@ -1,4 +1,4 @@
-Instance for the Physical Cell Identity (PCI) Assignment Problem
+Instances for the Physical Cell Identity (PCI) Assignment Problem
 ===============================================================================
 
 <table>
@@ -29,8 +29,9 @@ any parts of it) and/or the data used to test it must cite the following
 article explicitly":
 
 > C.E. Andrade, L.S. Pessoa, S. Stawiarski. The Physical Cell Identity
-> Assignment Proble: a Practical Optimization Approach. IEEE Transactions
-> on Evolutionary Computation. 2022, to appear.
+> Assignment Problem: a Practical Optimization Approach. IEEE Transactions
+> on Evolutionary Computation, 2022.
+> DOI [10.1109/TEVC.2022.3185927](https://doi.org/10.1109/TEVC.2022.3185927).
 
 [Check it out the full license.](https://github.com/ceandrade/pci_assignment_problem_instances/blob/master/LICENSE.md)
 
@@ -55,7 +56,7 @@ We have a total of 291 instances which are divided into three large groups:
   solutions should be harder to find due to a very limited number of available
   PCIs. This instance group is identified by suffix `squz`.  For more details
   in the generation of these instances, refer to
-  [Section IV.B in the paper.](http://dx.doi.org) 
+  [Section IV.B in the paper.](https://doi.org/10.1109/TEVC.2022.3185927) 
 
 The naming convention is the following:
 `pci_<id>_n<size>_<group>.{dat,txt,json}`.
@@ -141,5 +142,5 @@ All instances have the following fields:
 
 | :warning: Warning          |
 |:---------------------------|
-| We also include the folder [`results`](https://github.com/ceandrade/pci_assignment_problem_instances/blob/master/results), which contains all the best results obtained by the algorithms described [in the paper.](http://dx.doi.org) 
+| We also include the folder [`results`](https://github.com/ceandrade/pci_assignment_problem_instances/blob/master/results), which contains all the best results obtained by the algorithms described [in the paper.](https://doi.org/10.1109/TEVC.2022.3185927) 
 
